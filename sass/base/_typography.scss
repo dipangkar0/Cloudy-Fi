@@ -1,0 +1,22 @@
+body {
+  line-height: 1.7;
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 7rem;
+    letter-spacing: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 900;
+
+    background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

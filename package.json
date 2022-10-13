@@ -1,0 +1,14 @@
+{
+  "name": "clouds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Dipangkar Hajong",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
